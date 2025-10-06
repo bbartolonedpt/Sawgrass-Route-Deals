@@ -1,0 +1,268 @@
+{
+  "starts": [
+    {
+      "id": "Entrance A",
+      "name": "Entrance A (Fashion Ave)",
+      "x": 80,
+      "y": 340
+    },
+    {
+      "id": "Entrance B",
+      "name": "Entrance B (Oasis)",
+      "x": 600,
+      "y": 60
+    },
+    {
+      "id": "Entrance C",
+      "name": "Entrance C (Colonnade)",
+      "x": 1080,
+      "y": 360
+    }
+  ],
+  "stores": [
+    {
+      "id": "nike",
+      "name": "Nike Factory Store",
+      "zone": "Oasis",
+      "category": "Athletic",
+      "x": 520,
+      "y": 120,
+      "coupons": [
+        {
+          "title": "10% Off $100+",
+          "desc": "Factory styles only",
+          "code": "NIKE10",
+          "expires": "2025-12-31"
+        }
+      ]
+    },
+    {
+      "id": "adidas",
+      "name": "adidas Outlet",
+      "zone": "Oasis",
+      "category": "Athletic",
+      "x": 680,
+      "y": 120,
+      "coupons": [
+        {
+          "title": "BOGO Socks",
+          "desc": "Buy 1 get 1 50% off",
+          "code": "SOCKS50",
+          "expires": "2025-11-30"
+        }
+      ]
+    },
+    {
+      "id": "levis",
+      "name": "Levi's Outlet",
+      "zone": "Fashion Avenue",
+      "category": "Apparel",
+      "x": 200,
+      "y": 320,
+      "coupons": [
+        {
+          "title": "Extra 15%",
+          "desc": "With email signup",
+          "code": "LEVIS15",
+          "expires": "2026-01-15"
+        }
+      ]
+    },
+    {
+      "id": "gap",
+      "name": "GAP Factory",
+      "zone": "Fashion Avenue",
+      "category": "Apparel",
+      "x": 320,
+      "y": 380,
+      "coupons": []
+    },
+    {
+      "id": "bose",
+      "name": "Bose",
+      "zone": "Avenue II",
+      "category": "Electronics",
+      "x": 460,
+      "y": 520,
+      "coupons": [
+        {
+          "title": "$20 Off QC Earbuds",
+          "desc": "On accessories",
+          "code": "BOSE20",
+          "expires": "2025-12-01"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "Apple (Authorized)",
+      "zone": "Avenue II",
+      "category": "Electronics",
+      "x": 620,
+      "y": 520,
+      "coupons": []
+    },
+    {
+      "id": "coach",
+      "name": "Coach Outlet",
+      "zone": "Colonnade",
+      "category": "Luxury",
+      "x": 940,
+      "y": 360,
+      "coupons": [
+        {
+          "title": "Extra 20% Clearance",
+          "desc": "Select styles",
+          "code": "COACH20",
+          "expires": "2025-10-31"
+        }
+      ]
+    },
+    {
+      "id": "gucci",
+      "name": "Gucci",
+      "zone": "Colonnade",
+      "category": "Luxury",
+      "x": 1040,
+      "y": 420,
+      "coupons": []
+    },
+    {
+      "id": "prada",
+      "name": "Prada",
+      "zone": "Colonnade",
+      "category": "Luxury",
+      "x": 980,
+      "y": 280,
+      "coupons": []
+    },
+    {
+      "id": "bathbody",
+      "name": "Bath & Body Works",
+      "zone": "Fashion Avenue",
+      "category": "Home/Beauty",
+      "x": 180,
+      "y": 420,
+      "coupons": [
+        {
+          "title": "3\u2011Wick $12.95",
+          "desc": "This weekend only",
+          "code": "CANDLE",
+          "expires": "2025-10-15"
+        }
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "a": {
+        "x": 520,
+        "y": 120
+      },
+      "b": {
+        "x": 680,
+        "y": 120
+      }
+    },
+    {
+      "a": {
+        "x": 600,
+        "y": 60
+      },
+      "b": {
+        "x": 600,
+        "y": 120
+      }
+    },
+    {
+      "a": {
+        "x": 80,
+        "y": 340
+      },
+      "b": {
+        "x": 320,
+        "y": 380
+      }
+    },
+    {
+      "a": {
+        "x": 320,
+        "y": 380
+      },
+      "b": {
+        "x": 460,
+        "y": 520
+      }
+    },
+    {
+      "a": {
+        "x": 200,
+        "y": 320
+      },
+      "b": {
+        "x": 320,
+        "y": 380
+      }
+    },
+    {
+      "a": {
+        "x": 180,
+        "y": 420
+      },
+      "b": {
+        "x": 320,
+        "y": 380
+      }
+    },
+    {
+      "a": {
+        "x": 460,
+        "y": 520
+      },
+      "b": {
+        "x": 620,
+        "y": 520
+      }
+    },
+    {
+      "a": {
+        "x": 620,
+        "y": 520
+      },
+      "b": {
+        "x": 940,
+        "y": 360
+      }
+    },
+    {
+      "a": {
+        "x": 940,
+        "y": 360
+      },
+      "b": {
+        "x": 980,
+        "y": 280
+      }
+    },
+    {
+      "a": {
+        "x": 940,
+        "y": 360
+      },
+      "b": {
+        "x": 1040,
+        "y": 420
+      }
+    },
+    {
+      "a": {
+        "x": 940,
+        "y": 360
+      },
+      "b": {
+        "x": 1080,
+        "y": 360
+      }
+    }
+  ]
+}
